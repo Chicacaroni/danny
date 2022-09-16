@@ -1,5 +1,5 @@
 .heading2Xl {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 800;
   letter-spacing: -0.05rem;
@@ -49,4 +49,20 @@
 
 .lightText {
   color: #666;
+}
+
+
+.container {
+    margin-top: 10px;
+}
+.coolContainer {
+    border: 3px solid #bbb;
+}
+
+.coolContainer h1:first-of-type {
+    float: left;
+}
+
+.coolContainer h1:last-of-type {
+    float: right;
 }
